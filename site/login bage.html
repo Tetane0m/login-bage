@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>log in page </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="s.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+    </style>
+</head>
+
+<body>
+    <div class="form-container">
+        <p class="title">Log_in</p>
+        <form class="form">
+            <div class="input-group">
+                <input class="input-field" type="text" id="Username" required="">
+                <label for="Username" class="input-label">Username</label>
+                <span class="input-highlight"></span>
+            </div>
+            <div class="input-group">
+                <input class="input-field" type="password" id="password" required="">
+                <label for="password" class="input-label">Password</label>
+                <span class="input-highlight"></span>
+            </div>
+            <div class="forgot">
+                <a rel="noopener noreferrer" href="#" class="link">Forgot Password ?</a>
+            </div>
+            <button class="sign">Sign in</button>
+        </form>
+        <div class="social-message">
+            <div class="line"></div>
+            <p class="message">Login with social accounts</p>
+            <div class="line"></div>
+        </div>
+        <div class="social-icons">
+            <button title="Log in with Google" aria-label="Log in with Google" class="icon">
+                <i class="fa-brands fa-google"></i>
+            </button>
+            <button title="Log in with Twitter" aria-label="Log in with Twitter" class="icon">
+                <i class="fa-brands fa-twitter"></i>
+            </button>
+            <button title="Log in with GitHub" aria-label="Log in with GitHub" class="icon">
+                <i class="fa-brands fa-github"></i>
+            </button>
+        </div>
+        <p class="signup">Don't have an account?
+            <a rel="noopener noreferrer" href="#" class="link">Sign up</a>
+        </p>
+    </div>
+</body>
+
+</html>
